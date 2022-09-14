@@ -2,22 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * add - Adds two integers
+ * @num1: The first integer
+ * @num2: The second integer
  *
- * @c: character argument
- *
- * _putchar -> Prints to stdout
- *
- * Returns: 0 or 1
+ * Return: The result of the addition
  */
-int _putchar(char c)
+int add(int num1, int num2)
 {
-	return (write(1, &c, 1));
-}
-int main(void)
-{
-	puts("_putchar");
-	_putchar('\n');
-
-	return (0);
+	return (num1 + num2);
 }

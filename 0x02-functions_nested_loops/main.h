@@ -10,5 +10,8 @@ void jack_bauer(void);
 int mins_remainder;
 int hours_remainder;
 void times_table(void);
+int num;
+int mult;
+int prod;
 int add(int, int);
 void print_to_98(int n);

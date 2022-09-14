@@ -7,13 +7,12 @@
  */
 int _abs(int n)
 {
-	if (n > 0)
+	if (n > 0 || n == 0)
 	{
-		return (n * -1);
+		return (n);
 	}
 	else
 	{
-		putchar('\n');
-		return (n);
+		return (n * -1);
 	}
 }

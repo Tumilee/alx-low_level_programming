@@ -1,8 +1,8 @@
 #include  <stdio.h>
 
 /**
- * main - creates an infinite loop
- * Return: 0
+ *main - creates an infinite loop
+ *Return: 0
  */
 
 int main(void)
@@ -13,12 +13,13 @@ int main(void)
 
 	i = 0;
 /*
- * while (i < 10)
- * {
- * putchar(i);
- * }
+ *while (i < 10)
+ *{
+ *putchar(i);
+ *}
  */
 	printf("Infinite loop evaded! \\o/\n");
 
 	return (0);
 }
+
